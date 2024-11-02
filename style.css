@@ -246,3 +246,9 @@ a{
     color:#ddd;
     font-weight: bolder;
 }
+
+.pesa{
+    margin-left: 9rem;
+    color:#ddd;
+    text-shadow: 3px 3px 3px orangered;
+}
