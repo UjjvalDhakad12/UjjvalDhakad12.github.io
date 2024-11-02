@@ -46,7 +46,6 @@
         }
 
         .controls {
-            display: flex;
             justify-content: center;
             margin-top: 20px;
         }
@@ -59,6 +58,41 @@
             margin: 5px;
             cursor: pointer;
             font-size: 18px;
+            margin-left: 3rem;
+            margin-top: 3rem;
+        }
+
+        .button3 {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 15px;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .button1 {
+            background-color: #4CAF50;
+            position: absolute;
+            color: white;
+            border: none;
+            margin-bottom: 3rem;
+            margin-left: 3.6rem;
+            width:3rem;
+            height:3rem
+        }
+
+        .button2 {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            margin-left: 3.3rem;
+            width:3.5rem;
+            height:3rem
+            
         }
 
         .button:active {
@@ -77,12 +111,12 @@
         <div id="score">Score: 0</div>
         <div id="board"></div>
         <div class="controls">
-            <button class="button" id="up">↑</button>
+            <button class="button1" id="up">↑</button>
             <div>
-                <button class="button" id="left">←</button>
+                <button class="button3" id="left">←</button>
                 <button class="button" id="right">→</button>
             </div>
-            <button class="button" id="down">↓</button>
+            <button class="button2" id="down">↓</button>
         </div>
     </div>
 

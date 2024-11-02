@@ -218,7 +218,7 @@
 
 .social-icons a {
     font-size: 2rem;
-    color: #333;
+    color: #ffffff;
     margin: 0 15px;
     transition: color 0.3s ease, transform 0.3s ease;
     text-decoration: none;
@@ -226,7 +226,7 @@
 }
 
 .social-icons a:hover {
-    color: #007bff;
+    color: #ff0000;
     transform: scale(1.2);
 }
 
