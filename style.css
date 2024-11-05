@@ -7,6 +7,12 @@
     margin-top: 20px;
 }
 
+.navbar-brand{
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px green;
+    font-size: 2rem;
+}
+
 /* Card styling for each box */
 .card-box {
     background-color: #f8f9fa;
@@ -233,4 +239,15 @@
 hr {
     margin: 20px 0;
     border-top: 2px solid #007bff;
+}
+
+
+.app{
+    color:#f9f9f9;
+    text-shadow: 3px 3px 3px black;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
 }
