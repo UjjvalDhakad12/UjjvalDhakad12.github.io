@@ -1,0 +1,236 @@
+/* General container styling */
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Card styling for each box */
+.card-box {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effect for cards */
+.card-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Image styling */
+.card-box img {
+    width: 12rem;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+/* Unique styles for each card */
+.html-box {
+    border: 3px solid #e34c26;
+}
+
+.css-box {
+    border: 3px solid #264de4;
+}
+
+.js-box {
+    border: 3px solid #f0db4f;
+}
+
+/* Heading styles */
+.card-box h4 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+/* Paragraph styling */
+.card-box p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.frm {
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Input and textarea styling */
+.fld {
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+.fld:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+}
+
+/* Button styling */
+.btn-sub {
+    background-color: #007bff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-sub:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Honeypot hidden field */
+.hidden {
+    display: none;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Outer box container styling */
+.box-1 {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/* Styling for the individual rows */
+.row-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f4f8;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    border: 2px solid #007bff;
+}
+
+/* Hover effect on the row */
+.row-1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 123, 255, 0.2);
+}
+
+/* Serial number styling */
+.col-1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* File/folder name styling */
+.col-2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Download button styling */
+.col-3 {
+    text-align: right;
+}
+
+.btn-4 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-4:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+#do {
+    text-align: center;
+    color: #e34c26;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+#file-section {
+    text-align: center;
+    color: #e34c26;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+#submission {
+    text-align: center;
+    color: #e34c26;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+#social {
+    text-align: center;
+    color: #e34c26;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+/* Styling the icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.social-icons a {
+    font-size: 2rem;
+    color: #333;
+    margin: 0 15px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    /* Removes underline */
+}
+
+.social-icons a:hover {
+    color: #007bff;
+    transform: scale(1.2);
+}
+
+hr {
+    margin: 20px 0;
+    border-top: 2px solid #007bff;
+}
